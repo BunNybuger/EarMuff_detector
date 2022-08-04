@@ -2,6 +2,7 @@
 ![EarMuff Detected](Sample detection.jpg?raw=true "earMuff NOTDetected")
 
 # EarMuff_detector 
+https://user-images.githubusercontent.com/69402254/182837301-fd583c36-9243-4482-a484-59a2a5fbbd10.mp4
 
 This repo is an earmuff detector. It can get video stream from CCTV in workplaces and detect if the person in the video is using an earmuff or not.
 First, a trained YoloV5 model detects the person in the video; then, another YoloV5 model detects the person's head. The detected box of a head is sent to a PrototypicalNetwork, which was not trained to detect earmuff previously and it only has seen 8 pictures of a person with and without muff. With only 8 pictures the accuracy is really good, as you can see in the sample video, GunShop_Trim_Out (1).mp4. However, it should be noted that those 8 pictuers are taken from the same test video, and this have increased the accuracy.
