@@ -1,6 +1,6 @@
 ![EarMuff Detected](Sample detection.jpg?raw=true "earMuff Detected")
 ![EarMuff Detected](Sample detection.jpg?raw=true "earMuff NOTDetected")
-
+GunShop_Trim_OUTPUT.mp4
 # EarMuff_detector 
 https://user-images.githubusercontent.com/69402254/182837301-fd583c36-9243-4482-a484-59a2a5fbbd10.mp4
 
