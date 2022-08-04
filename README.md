@@ -1,3 +1,6 @@
+![EarMuff Detected](Sample detection.jpg?raw=true "earMuff Detected")
+![EarMuff Detected](Sample detection.jpg?raw=true "earMuff NOTDetected")
+
 # EarMuff_detector 
 
 This repo is an earmuff detector. It can get video stream from CCTV in workplaces and detect if the person in the video is using an earmuff or not.
