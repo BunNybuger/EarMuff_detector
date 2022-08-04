@@ -1,10 +1,5 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-/Test Video/*
-!/Test Video/GunShop_Trim.mp4
-!/Test Video/GunShop_Trim_OUTPUT.mp4
-!Head_detector_fromPersonBox_yolov5.pt
-!Person_Detector.pt
-!/Support Data/ConstantSupportDataset.json
+
 *.jpg
 *.jpeg
 *.png
@@ -260,3 +255,11 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+/Test Video/*
+!/Test Video/GunShop_Trim.mp4
+!/Test Video/GunShop_Trim_OUTPUT.mp4
+!Head_detector_fromPersonBox_yolov5.pt
+!Person_Detector.pt
+!Support Data/*
+!Support Data/*/*.jpg

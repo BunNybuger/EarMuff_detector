@@ -1,0 +1,10 @@
+{
+    "class_names": [
+        "Muff",
+        "NotMuff"
+    ],
+    "class_roots": [
+        "./Support Data/Muff",
+        "./Support Data/NotMuff"
+    ]
+}
