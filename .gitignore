@@ -263,3 +263,5 @@ fabric.properties
 !Person_Detector.pt
 !SupportData/*
 !SupportData/*/*.jpg
+!Sample_detection2.jpg
+!Sample_detection.jpg
