@@ -4,7 +4,7 @@
         "NotMuff"
     ],
     "class_roots": [
-        "./Support Data/Muff",
-        "./Support Data/NotMuff"
+        "./SupportData/Muff",
+        "./SupportData/NotMuff"
     ]
 }

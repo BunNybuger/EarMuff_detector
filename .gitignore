@@ -261,5 +261,5 @@ fabric.properties
 !/Test Video/GunShop_Trim_OUTPUT.mp4
 !Head_detector_fromPersonBox_yolov5.pt
 !Person_Detector.pt
-!Support Data/*
-!Support Data/*/*.jpg
+!SupportData/*
+!SupportData/*/*.jpg
