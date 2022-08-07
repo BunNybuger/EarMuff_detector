@@ -256,9 +256,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-/Test Video/*
-!/Test Video/GunShop_Trim.mp4
-!/Test Video/GunShop_Trim_OUTPUT.mp4
+/TestVideo/*
+!/TestVideo/GunShop_Trim.mp4
+!/TestVideo/GunShop_Trim_OUTPUT.mp4
 !Head_detector_fromPersonBox_yolov5.pt
 !Person_Detector.pt
 !SupportData/*
