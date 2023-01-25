@@ -1,20 +1,16 @@
 ![EarMuff Detected](Sample_detection.jpg?raw=true "earMuff Detected")
 ![EarMuff NOTDetected](Sample_detection2.jpg?raw=true "earMuff NOTDetected")
 
-# EarMuff_detector  
+# EarMuff_detector
 
 https://user-images.githubusercontent.com/69402254/182837301-fd583c36-9243-4482-a484-59a2a5fbbd10.mp4  
-  
 
-Welcome to our earmuff detector! Here, we've put together a solution that uses CCTV video streams to detect whether or not a person in the video is wearing earmuffs.
 
+This repo is an earmuff detector. It can get video stream from CCTV in workplaces and detect if the person in the video is using an earmuff or not.  
     <p align="center">
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BunNybuger/EarMuff_detector/blob/master/EarMuff_Detector_using_few_shot_learning_Colab_version.ipynb)
     </p>
-We've used YoloV5 models to detect the person in the video and then their head, which is then sent to our PrototypicalNetwork for further analysis. We've trained our network with a small number of images (8 to be exact), and the results are promising. We've also included a sample video for you to check out.
+First, a trained YoloV5 model detects the person in the video; then, another YoloV5 model detects the person's head. The detected box of a head is sent to a PrototypicalNetwork, which was NOT TRAINED to detect earmuff previously and it only has seen 8 pictures of a person with and without muff. With only 8 pictures the accuracy is really good, as you can see in the sample video above. However, it should be noted that those 8 pictuers are taken from the same test video, and this have increased the accuracy.
+I took the Few Shot Learning(FSL) method because we don't have a dataset for this project, yet! I used efficientnet_b2 network architecture pre-trained on the ImageNet dataset as a feature extractor. In a later work, after a proper dataset is ready for this purpose, another method will be tested and reported here.
 
-Due to the lack of a dedicated earmuff dataset, we employed a technique called Few Shot Learning (FSL) and used the efficientnet_b2 network architecture pre-trained on the ImageNet dataset as a feature extractor.
-
-We acknowledge that there is still room for improvement, and in future, we will be working on expanding our dataset and testing other methods to improve the accuracy. We'll keep this repository updated with our progress. And a big thanks to @ebennequin for his contribution in Few-Shot Learning.
-
-Please take a look at our work and let us know what you think!
+[Here is the FSL repository](https://github.com/sicara/easy-few-shot-learning) from GitHub that I used. Thanks to @ebennequin, there is a good explanation of few-shot learning in the repository as well.
