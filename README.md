@@ -1,10 +1,10 @@
 ![EarMuff Detected](Sample_detection.jpg?raw=true "earMuff Detected")
 ![EarMuff NOTDetected](Sample_detection2.jpg?raw=true "earMuff NOTDetected")
 
-# EarMuff_detector
+# EarMuff_detector  
 
 https://user-images.githubusercontent.com/69402254/182837301-fd583c36-9243-4482-a484-59a2a5fbbd10.mp4  
-
+  
 
 Welcome to our earmuff detector! Here, we've put together a solution that uses CCTV video streams to detect whether or not a person in the video is wearing earmuffs.
 
