@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: EarMuff_detector
+message: >-
+  If you use earmuff_detector in your research, please cite it
+  using these metadata.
+type: software
+authors:
+  - given-names: Mostafa
+    family-names: Papen
+    email: Mostafa.papen@gmail.com
+    affiliation: University of Auckland
+repository-code: 'https://github.com/BunNybuger/EarMuff_detector'
+abstract: >-
+  an earmuff using few shot learning method. This project uses YoloV5(@ultralytics) and easy_fsl(@ebennequin)
+license: MIT
