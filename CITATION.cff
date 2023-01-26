@@ -1,5 +1,13 @@
 cff-version: 1.2.0
 title: EarMuff_detector
+version: 1.1.0
+date-released: 2022-06-06
+
+repository:
+  url: https://github.com/BunNybuger/EarMuff_detector
+  type: git
+  repository-id: BunNybuger/EarMuff_detector
+
 message: >-
   If you use earmuff_detector in your research, please cite it
   using these metadata.
@@ -8,6 +16,7 @@ authors:
   - given-names: Mostafa
     family-names: Papen
     email: Mostafa.papen@gmail.com
+    orcid: 0000-0002-8873-6623
     affiliation: University of Auckland
 repository-code: 'https://github.com/BunNybuger/EarMuff_detector'
 abstract: >-
