@@ -1,5 +1,5 @@
 asposestorage==1.0.2
-easyfsl==0.2.0
+easyfsl==1.2.1
 numpy==1.21.2
 opencv_python==4.5.4.58
 torch==1.10.0
